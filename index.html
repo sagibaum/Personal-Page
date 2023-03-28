@@ -7,77 +7,89 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
     
 
     <title>Sagi Baum</title>
 
 </head>
 <body>
-    <div class="top-container">
-        <img class="top-cloud" src="images\cloud.png" alt="cloud-img">
-        <h1>I'm Sagi.</h1>
-        <h2>a junior programmer.</h2>
-        <img class="bottom-cloud" src="images\cloud.png" alt="cloud-img">
-        <img src="images\mountain.png" alt="mountain-img">
-        <iframe src="images\cloud_sticker.gif"  class="giphy-embed"></iframe>
+  <div class="container-fluid">
 
-        
-
-       
-
-    </div>
-    <div class="middle-container">
-        <div class="profile">
-          <img id="profile-pic" src="images\sagi-modified.png" alt="Sagi-pic">
-          <h2>Hello and welcome to my website!</h2>
-          <p class="intro">As a third year computer science student, I am passionate about all development and eager to share my skills and knowledge with the world.</p>
-           <p class="intro"> On this website, you will find examples of my work, including programming projects and web applications that I have developed. </p>
-           
-        </p>
-        </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills:</h2>
-          <div class="skill-row">
-            <img class="technical-gif" src="images\coding.gif" alt="technical-gif">
-            <h3>Technical Skills</h3>
-            <p> I have experience with several programming languages, including Python, Java, Rust, C, C++ and JavaScript.</p>
-            <p>In addition, I am familiar with data structures, algorithms, operating systems and software design principles.</p>
-          </div>
-          <div class="skill-row">
-            <img class="personal-gif" src="images\skills_gif.gif" alt="personal-gif">
-            <h3>Personal Skills</h3>
-            <p>As a junior developer, I possess strong problem-solving skills, effective communication abilities, attention to detail, adaptability, and teamwork capabilities. </p>
-                <p>These personal skills, combined with my technical knowledge and experience, make me a valuable asset in the tech industry.</p>
-          </div>
-        </div>
-        <hr>
-        <div class="employe">
-        <h2>Employment status:</h2>
-        <div class="job-status">
-            
-            <img class="employ-gif" src="images\work.gif" alt="work-gif">
-            <h3>Unemployed</h3>
-            <p>I am currently seeking job opportunities in the tech industry and would love to connect with potential employers and collaborators.</p><br>
-        </div>
-        </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <p class="contact-message">Please feel free to browse my website and contact me if you have any questions or would like to learn more about my work.</p>
-          <p class="contact-message">Thank you for visiting!</p>
-          <a class="btn" href="mailto:SagiBaum@gmail.com">CONTACT ME</a>
-        </div>
+    <div class="row">
+      <div class="col text-center top-container">
+            <img class="top-cloud" src="images\cloud.png" alt="cloud-img">
+            <h1>I'm Sagi.</h1>
+            <h2>a junior programmer.</h2>
+            <img class="bottom-cloud" src="images\cloud.png" alt="cloud-img">
+            <div class="gif-container">
+              <div>
+              <img src="images\mountain.png" class="mountain-img">
+              <iframe src="images\cloud_sticker.gif"  class="giphy-embed"></iframe>
+              </div>
+            </div>
       </div>
+    </div>
+
+    <div class="row">
+        <div class="col middle-container text-center">
+          <div class=" profile">
+            <img id="profile-pic" src="images\sagi-modified.png" alt="Sagi-pic">
+            <h2>Hello and welcome to my website!</h2>
+            <p class="intro">As a third year computer science student, I am passionate about all development and eager to share my skills and knowledge with the world.</p>
+            <p class="intro"> On this website, you will find examples of my work, including programming projects and web applications that I have developed. </p>
+          </div>
+     
+
+         <hr>
+
+          <div class="skills">
+            <h2>My Skills:</h2>
+            <div class="skill-row">
+              <img class="technical-gif" src="images\coding.gif" alt="technical-gif">
+              <h3>Technical Skills</h3>
+              <p> I have experience with several programming languages, including Python, Java, Rust, C, C++ and JavaScript.</p>
+              <p>In addition, I am familiar with data structures, algorithms, operating systems and software design principles.</p>
+            </div>
+            <div class="skill-row">
+              <img class="personal-gif" src="images\skills_gif.gif" alt="personal-gif">
+              <h3>Personal Skills</h3>
+              <p>As a junior developer, I possess strong problem-solving skills, effective communication abilities, attention to detail, adaptability, and teamwork capabilities. </p>
+                  <p>These personal skills, combined with my technical knowledge and experience, make me a valuable asset in the tech industry.</p>
+            </div>
+          </div>
+          <hr>
+          <div class="employe">
+          <h2>Employment status:</h2>
+          <div class="job-status">
+              
+              <img class="employ-gif" src="images\work.gif" alt="work-gif">
+              <h3>Unemployed</h3>
+              <p>I am currently seeking job opportunities in the tech industry and would love to connect with potential employers and collaborators.</p><br>
+          </div>
+          </div>
+          <hr>
+          <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <p class="contact-message">Please feel free to browse my website and contact me if you have any questions or would like to learn more about my work.</p>
+            <p class="contact-message">Thank you for visiting!</p>
+            <a class="btn" href="mailto:SagiBaum@gmail.com">CONTACT ME</a>
+          </div>
+        </div>
+    </div>
       
-      
-      <div class="bottom-container">
+    <div class="row">
+      <div class="col bottom-container text-center "> 
         <a class="footer-link" href="https://www.linkedin.com/in/sagi-baum/">LinkedIn</a>
         <a class="footer-link" href="https://github.com/sagibaum">Github</a>
         <a class="footer-link" href="https://sagibaum.github.io/CV/">CV page</a>
         <p class="Copywrite">© 2023 Sagi Baum.</p>
       </div>
-      
-
+    </div>
+  </div>
 </body>
 </html>
